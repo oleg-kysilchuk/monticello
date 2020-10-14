@@ -928,12 +928,14 @@ body {
   margin-bottom: 60px;
 }
 .gallery-block__right {
-  padding-left: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-content: space-between;
+}
+
+.gallery-block__right img {
+   margin-left: 10px;
 }
 
 .map-contact {
