@@ -938,8 +938,9 @@ body {
    margin-left: 10px;
 }
 
-.gallery-block__right img:hover {
-   translate: scale(1.06);
+.gallery-block__right img:hover,
+.gallery-block__left img:hover{
+   transform: scale(1.03);
 }
 
 .map-contact {
