@@ -40,5 +40,9 @@
         img {
             margin-left: 10px;
         }
+        
+        img:hover {
+            translate: scale(1.06);
+        }
     }
 }
